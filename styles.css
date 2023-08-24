@@ -24,24 +24,23 @@ body {
   font-weight: 700;
   font-size: 24px;
   font-style: normal;
-  letter-spacing: -1.92px;
   text-transform: uppercase;
-  width: 135px;
+  width: auto;
   height: 24px;
   margin: 20px 24px;
 }
 
 .main-content {
+  width: 100%;
+  height: auto;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
   flex-direction: column;
 }
 
 img {
-  width: 286.83px;
+  width: 287px;
   height: 238px;
-  flex-shrink: 0;
   margin: 64px auto;
 }
 
@@ -49,9 +48,7 @@ img {
   display: flex;
   flex-direction: column;
   text-align: left;
-  justify-content: flex-start;
   margin-left: 24px;
-  max-width: 70%;
 }
 
 .section-header {
@@ -83,6 +80,8 @@ img {
 }
 
 .footer {
+  position: fixed;
+  bottom: 24px;
   width: 100%;
   text-align: center;
   font-size: 14px;
@@ -90,7 +89,7 @@ img {
   font-weight: 500;
   color: var(--grey-color3);
   height: 17px;
-  margin-top: 10vh;
+  
 }
 
 .footer a {

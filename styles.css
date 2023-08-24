@@ -98,3 +98,41 @@ img {
   text-decoration: underline;
 }
 
+/*Media query for 1440 x 1080 display*/
+@media screen and (min-width: 1440px) {
+  .page-title {
+    height: 25px;
+    margin: 40px 77px;
+  }
+
+  .main-content {
+    flex-direction: row;
+    margin-top: 225px;
+  }
+
+  img {
+    width: 540px;
+    height: 448px;
+    margin-left: 77px;
+    margin-top: 0;
+  }
+
+  .text-wrapper {
+    width: 100%;
+    margin-left: 120px;
+  }
+
+  .section-header {
+    width: 586px;
+    height: 190px;
+    font-size: 64px;
+
+  }
+
+  .section-p {
+    font-size: 24px;
+    width: 60%;
+    height: 108px;
+  }
+
+}

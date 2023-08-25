@@ -37,7 +37,6 @@
 
 ![screenshot](https://github.com/indy-stack/404-not-found-master/blob/main/my-answer.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - The demo for this project can be seen at https://indy-stack.github.io/404-not-found-master/
 notice that the solutions I provided were for mobile (375x949) and laptop(1440x1080) and it might not display correctly
